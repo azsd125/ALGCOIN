@@ -60,3 +60,13 @@
     <img src="usdc_wallet_qr.png" alt="USDC QR Code" class="qr">
   </div>
 </div>
+<div id="donate" class="info">
+  <h3>ادعم مشروع Algcoin عبر USDC</h3>
+  <p>لمساعدتنا على تطوير العملة والمنصة، يمكنك إرسال التبرع عبر USDC إلى العنوان التالي:</p>
+  <div class="wallet-box">
+    <input type="text" value="0x4cc8505bfce80bd246ab9df3751b1ee56463c55d" id="wallet" readonly>
+    <button onclick="copyWallet()">نسخ العنوان</button>
+    <br>
+    <img src="usdc_wallet_qr.png" alt="USDC QR Code" class="qr">
+  </div>
+</div>
