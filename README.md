@@ -30,7 +30,7 @@
       margin-top: 2rem;
       background-color: #334155;
       padding: 1.5rem;
-      border-radius: 10px;
+      border-radius: 1000px;
     }
     .info p {
       font-size: 1.2rem;
@@ -50,16 +50,6 @@
   </div>
 </body>
 </html>
-<div id="donate" class="info">
-  <h3>ادعم مشروع Algcoin عبر USDC</h3>
-  <p>لمساعدتنا على تطوير العملة والمنصة، يمكنك إرسال التبرع عبر USDC إلى العنوان التالي:</p>
-  <div class="wallet-box">
-    <input type="text" value="0x4cc8505bfce80bd246ab9df3751b1ee56463c55d" id="wallet" readonly>
-    <button onclick="copyWallet()">نسخ العنوان</button>
-    <br>
-    <img src="usdc_wallet_qr.png" alt="USDC QR Code" class="qr">
-  </div>
-</div>
 <div id="donate" class="info">
   <h3>ادعم مشروع Algcoin عبر USDC</h3>
   <p>لمساعدتنا على تطوير العملة والمنصة، يمكنك إرسال التبرع عبر USDC إلى العنوان التالي:</p>
@@ -120,5 +110,33 @@
       <p>Algcoin هي عملة رقمية تم تطويرها لتكون أداة استثمارية قوية وآمنة في المستقبل، تهدف إلى دعم المشاريع ذات القيمة المضافة العالية.</p>
     </div>
   </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>لافتة</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f3f3f3;
+    }
+    .banner {
+      padding: 20px 40px;
+      background-color: #007BFF;
+      color: white;
+      font-size: 48px;
+      font-weight: bold;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">Pay here</div>
 </body>
 </html>
