@@ -1,44 +1,4 @@
-<!DOCTYPE html><html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Algcoin - العملة الرقمية</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0f172a;
-      color: white;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #1e293b;
-      padding: 1rem;
-      text-align: center;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    .content {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-      text-align: center;
-    }
-    .info {
-      margin-top: 2rem;
-      background-color: #334155;
-      padding: 1.5rem;
-      border-radius: 1000px;
-    }
-    .info p {
-      font-size: 1.2rem;
-    }
-  </style>
-</head>
-<body>
-  <header>
+
     <h1>Algcoin</h1>
     <p>الرمز: ALG</p>
   </header>  <div class="content">
@@ -122,14 +82,14 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 80vh;
       background-color: #f3f3f3;
     }
     .banner {
-      padding: 20px 40px;
+      padding: 21px 50px;
       background-color: #007BFF;
       color: white;
-      font-size: 48px;
+      font-size: 45px;
       font-weight: bold;
       border-radius: 15px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -137,6 +97,6 @@
   </style>
 </head>
 <body>
-  <div class="banner">Pay here</div>
+  <div class="banner">   Pay here   </div>
 </body>
 </html>
