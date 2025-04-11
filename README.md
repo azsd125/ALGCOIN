@@ -1,41 +1,52 @@
-<!DOCTYPE html>
-<html>
-<الرأس>
-    <العنوان></العنوان>
-	<meta charset="utf-8" />
-    <script src="Scripts/jquery-1.9.1.min.js"></script>
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <script src="Scripts/isRockFx.js"></script>
-    <النص>
-        (دالة () {
-            $('#ButtonCal').click(
-                وظيفة () {
-                    //الحصول على قرض أو قرض شخصي
-                    var para = { 'الارتفاع': $('#txbHeight').val()، 'الوزن': $('#txbWeight').val() };
-                    //واجهة برمجة تطبيقات 呼叫
-                    ExecuteAPI('مثال'، 'BMI'، الفقرة،
-			// قم بإنشاء وظيفة رد الاتصال لـ WebAPI
-                        الدالة (النتيجة) {
-                            تنبيه(النتيجة.البيانات)؛
-                        }
-                        );
-                }
-                );
-        });
-    </script>
+<!DOCTYPE html><html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algcoin - العملة الرقمية</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f172a;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1e293b;
+      padding: 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .content {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    .info {
+      margin-top: 2rem;
+      background-color: #334155;
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+    .info p {
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
-<الجسم>
-    <div class="row" style="margin:10px">
-        <div class="col-md-12">
-            <div class="form-group">
-                تسلق الجبال:
-                <input id="txbHeight" class="form-control" placeholder="請輸入身高" />
-                الاسم:
-                <input id="txbWeight" class="form-control" placeholder="請輸入體重" />
-                <br />
-                <button class="btn btn-primary" id="ButtonCal">المفتاح</button>
-            </div>
-        </div>
+<body>
+  <header>
+    <h1>Algcoin</h1>
+    <p>الرمز: ALG</p>
+  </header>  <div class="content">
+    <h2>عملة استثمارية على المدى الطويل</h2>
+    <div class="info">
+      <p><strong>العدد الإجمالي للعملات:</strong> 21,000,000</p>
+      <p>Algcoin هي عملة رقمية تم تطويرها لتكون أداة استثمارية قوية وآمنة في المستقبل، تهدف إلى دعم المشاريع ذات القيمة المضافة العالية.</p>
     </div>
+  </div>
 </body>
 </html>
